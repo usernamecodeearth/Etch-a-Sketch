@@ -22,7 +22,15 @@ h1, p{
   margin-right: 90px;
 }
 
+p{
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: large;
+}
 
+p:first-of-type{
+  margin-bottom: -10px;
+}
 
 nav{
   display: inline-block;
