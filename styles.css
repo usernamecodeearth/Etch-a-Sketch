@@ -1,0 +1,102 @@
+body{
+  height: auto;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.section12Container{
+  display: flex;
+  justify-content: center;
+  margin-left: -10em;
+}
+
+.section1{
+  margin-right: 2em;
+}
+
+
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: inline-block;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+}
+ul button{
+  margin-top: 2em;
+  border: none;
+  background-color: lightskyblue;
+  height: 2em;
+  width: 7em;
+  border-radius: 0.6em;
+  color: white;
+  transition: 0.15s;
+}
+
+ul button:hover{
+  transform: translateY(-3px);
+  background-color:lightcoral;
+  cursor: pointer;
+}
+
+
+/* etch a sketch board */
+.board {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.squares{
+  height: 50px;
+  width: 50px;
+  background-color: lightseagreen;
+  border-radius: 30%;
+  transition: 0.15s;
+  margin: 0.05em;
+}
+
+#colorChange{
+  background-color: lightcoral;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.resetBtn{
+  border: none;
+  background-color: lightskyblue;
+  height: 2em;
+  width: 7em;
+  border-radius: 0.6em;
+  color: white;
+  margin-top: 3em;
+  transition: 0.15s;
+}
+
+.resetBtn:hover{
+  transform: translateY(-3px);
+  background-color:lightcoral;
+  cursor: pointer;
+}
+
+/* 8x8 board */
+
+.eightBoard{
+  display: noe;
+}
+
+/* 16x16 board */
+.sixteenBoard{
+  display: noe;
+}
